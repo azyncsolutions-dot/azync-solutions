@@ -16,13 +16,39 @@ const Contact = () => {
 
   const onSubmit = async (data) => {
     setIsSubmitting(true);
-    // Simulate API call
-    await new Promise(resolve => setTimeout(resolve, 1500));
-    console.log(data);
-    setIsSubmitting(false);
-    setIsSuccess(true);
-    reset();
-    setTimeout(() => setIsSuccess(false), 5000);
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        body: JSON.stringify({
+          access_key: import.meta.env.VITE_WEB3FORMS_ACCESS_KEY || "YOUR_ACCESS_KEY_HERE",
+          name: data.name,
+          email: data.email,
+          service: data.service,
+          message: data.message,
+          subject: "New Contact Form Submission - AZync Solutions",
+          from_name: "AZync Solutions"
+        })
+      });
+
+      const result = await response.json();
+      if (result.success) {
+        setIsSuccess(true);
+        reset();
+        setTimeout(() => setIsSuccess(false), 5000);
+      } else {
+        console.error("Web3Forms error:", result);
+        alert("Submission failed: " + (result.message || "Unknown error"));
+      }
+    } catch (error) {
+      console.error("Form submission error:", error);
+      alert("Something went wrong. Please check your network connection and try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
