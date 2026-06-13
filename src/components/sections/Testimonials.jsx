@@ -73,11 +73,6 @@ const Testimonials = () => {
                 </p>
                 
                 <div className="flex items-center gap-4 mt-auto">
-                  <img 
-                    src={testimonial.avatar} 
-                    alt={testimonial.name} 
-                    className="w-12 h-12 rounded-full object-cover"
-                  />
                   <div>
                     <h4 className="font-jakarta font-bold text-brand-dark text-sm">
                       {testimonial.name}

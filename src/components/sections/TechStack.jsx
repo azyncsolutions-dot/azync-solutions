@@ -2,16 +2,16 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const techLogos = [
-  { name: 'React', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
-  { name: 'Node.js', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
-  { name: 'Python', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
-  { name: 'Tailwind CSS', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg' },
-  { name: 'Firebase', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg' },
-  { name: 'MongoDB', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
-  { name: 'Figma', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg' },
-  { name: 'Next.js', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg' },
-  { name: 'TypeScript', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
-  { name: 'AWS', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg' },
+  { name: 'React', src: 'https://cdn.simpleicons.org/react' },
+  { name: 'Node.js', src: 'https://cdn.simpleicons.org/nodedotjs' },
+  { name: 'Python', src: 'https://cdn.simpleicons.org/python' },
+  { name: 'Tailwind CSS', src: 'https://cdn.simpleicons.org/tailwindcss' },
+  { name: 'Firebase', src: 'https://cdn.simpleicons.org/firebase' },
+  { name: 'MongoDB', src: 'https://cdn.simpleicons.org/mongodb' },
+  { name: 'Figma', src: 'https://cdn.simpleicons.org/figma' },
+  { name: 'Next.js', src: 'https://cdn.simpleicons.org/nextdotjs' },
+  { name: 'TypeScript', src: 'https://cdn.simpleicons.org/typescript' },
+  { name: 'AWS', src: 'https://cdn.simpleicons.org/amazonwebservices' },
 ];
 
 const TechStack = () => {
@@ -32,7 +32,7 @@ const TechStack = () => {
               key={index} 
               className="mx-10 flex flex-col items-center justify-center opacity-60 hover:opacity-100 grayscale hover:grayscale-0 transition-all duration-300"
             >
-              <img src={tech.src} alt={tech.name} className="h-12 md:h-16 w-auto object-contain" />
+              <img src={tech.src} alt={tech.name} className="h-10 w-10 md:h-12 md:w-12 object-contain" />
             </div>
           ))}
         </div>
