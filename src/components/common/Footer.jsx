@@ -86,7 +86,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-[rgba(33,150,243,0.20)] flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-brand-gray text-sm">
-            © {new Date().getFullYear()} AZync Solutions. Built with ❤️ by two CS students.
+            © {new Date().getFullYear()} AZync Solutions. Built with ❤️ by two passionate computer scientists.
           </p>
           <div className="flex items-center gap-6">
             <Link to="/privacy" className="text-brand-gray hover:text-brand-blue text-sm transition-colors">Privacy Policy</Link>

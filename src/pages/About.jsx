@@ -20,7 +20,7 @@ const About = () => {
     <>
       <Helmet>
         <title>About Us | AZync Solutions</title>
-        <meta name="description" content="Two Students. One Mission. Infinite Solutions. Meet the team behind AZync Solutions." />
+        <meta name="description" content="Two Passionate Computer Scientists. One Mission. Infinite Solutions. Meet the team behind AZync Solutions." />
       </Helmet>
 
       {/* Hero Section */}
@@ -29,7 +29,7 @@ const About = () => {
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
             <Badge className="mb-6">Our Story</Badge>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-jakarta font-bold text-brand-dark mb-6">
-              Two Students. One Mission.<br className="hidden md:block"/> <span className="text-gradient">Infinite Solutions.</span>
+              Two Passionate Computer Scientists.<br />One Mission.<br className="hidden md:block"/> <span className="text-gradient">Infinite Solutions.</span>
             </h1>
             <p className="text-brand-gray text-lg md:text-xl max-w-2xl mx-auto">
               We started AZync Solutions with a simple idea: to bridge the gap between academic computer science and real-world business problems.

@@ -5,7 +5,7 @@ import Button from '../ui/Button';
 
 const WhyChooseUs = () => {
   const points = [
-    { title: "Student-Founded Drive", desc: "Fresh perspectives, boundless energy, and a hunger to prove ourselves through exceptional work." },
+    { title: "Passionate Drive", desc: "Fresh perspectives, boundless energy, and a hunger to prove ourselves through exceptional work." },
     { title: "Problem-First Approach", desc: "We don't just write code; we solve the underlying business problems with the right technology." },
     { title: "End-to-End Delivery", desc: "From UI/UX design to backend architecture and deployment, we handle the entire lifecycle." },
     { title: "Affordable & Transparent", desc: "No hidden fees, no enterprise bloat. Just honest pricing for high-quality software." },

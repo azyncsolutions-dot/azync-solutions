@@ -130,10 +130,10 @@ const Blog = () => {
               <div className="p-6 bg-brand-dark text-white rounded-2xl shadow-brand-lg relative overflow-hidden">
                 <div className="absolute inset-0 bg-brand-gradient opacity-10" />
                 <div className="relative z-10 text-center">
-                  <h4 className="font-jakarta font-bold text-xl mb-2">Join the Newsletter</h4>
-                  <p className="text-brand-gray text-sm mb-6">Get our latest tips and tricks delivered to your inbox.</p>
+                  <h4 className="font-jakarta font-bold text-xl mb-2 text-white">Join the Newsletter</h4>
+                  <p className="text-white/70 text-sm mb-6">Get our latest tips and tricks delivered to your inbox.</p>
                   <form className="flex flex-col gap-3">
-                    <input type="email" placeholder="Email address" className="bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-brand-blue" />
+                    <input type="email" placeholder="Email address" className="bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-sm text-white placeholder-white/50 focus:outline-none focus:border-brand-blue" />
                     <Button variant="primary" className="w-full">Subscribe</Button>
                   </form>
                 </div>

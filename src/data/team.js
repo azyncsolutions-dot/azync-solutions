@@ -6,7 +6,7 @@ export const team = [
     id: 1,
     name: 'Ali Shahzad',
     role: 'Co-Founder & CEO',
-    bio: 'A young, passionate entrepreneur and computer science student dedicated to building scalable digital solutions and driving business growth.',
+    bio: 'A young, passionate entrepreneur and computer scientist dedicated to building scalable digital solutions and driving business growth.',
     image: founder1,
     skills: ['Product Strategy', 'Full-Stack Dev', 'Cloud Arch'],
     socials: {
