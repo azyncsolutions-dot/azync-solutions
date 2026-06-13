@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useForm } from 'react-hook-form';
 import { Mail, MapPin, MessageSquare, Clock, ArrowRight } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
