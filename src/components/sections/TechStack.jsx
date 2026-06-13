@@ -11,7 +11,7 @@ const techLogos = [
   { name: 'Figma', src: 'https://cdn.simpleicons.org/figma' },
   { name: 'Next.js', src: 'https://cdn.simpleicons.org/nextdotjs' },
   { name: 'TypeScript', src: 'https://cdn.simpleicons.org/typescript' },
-  { name: 'AWS', src: 'https://cdn.simpleicons.org/amazonwebservices' },
+  { name: 'AWS', src: 'https://cdn.simpleicons.org/amazonaws' },
 ];
 
 const TechStack = () => {
