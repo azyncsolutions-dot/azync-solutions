@@ -10,8 +10,8 @@ export const team = [
     image: founder1,
     skills: ['Product Strategy', 'Full-Stack Dev', 'Cloud Arch'],
     socials: {
-      linkedin: 'https://linkedin.com',
-      github: 'https://github.com'
+      linkedin: 'https://linkedin.com/in/ali-shahzad-2b10832a6',
+      github: 'https://github.com/AliShahzad025'
     }
   },
   {
@@ -22,8 +22,8 @@ export const team = [
     image: founder2,
     skills: ['AI/ML', 'System Design', 'Backend Dev'],
     socials: {
-      linkedin: 'https://linkedin.com',
-      github: 'https://github.com'
+      linkedin: 'https://www.linkedin.com/in/zain-shahid-94a3a2390/',
+      github: 'https://github.com/zain31197'
     }
   }
 ];
