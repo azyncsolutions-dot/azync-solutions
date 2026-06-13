@@ -90,7 +90,7 @@ const About = () => {
               >
                 <Card className="overflow-hidden group p-0">
                   <div className="h-64 overflow-hidden relative">
-                    <img src={member.image} alt={member.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                    <img src={member.image} alt={member.name} className="w-full h-full object-contain bg-brand-light transition-transform duration-500 group-hover:scale-105" />
                     <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                        <div className="flex gap-4 w-full justify-center">
                          <a href={member.socials.linkedin} className="text-white hover:text-brand-blue transition-colors">LinkedIn</a>
