@@ -1,10 +1,10 @@
 import founder1 from '../assets/founder1.jpg';
-import founder2 from '../assets/founder2.JPG';
+import founder2 from '../assets/founder2.jpeg';
 
 export const team = [
   {
     id: 1,
-    name: 'Alex Johnson',
+    name: 'Ali Shahzad',
     role: 'Co-Founder & CEO',
     bio: 'A young, passionate entrepreneur and computer science student dedicated to building scalable digital solutions and driving business growth.',
     image: founder1,
@@ -16,7 +16,7 @@ export const team = [
   },
   {
     id: 2,
-    name: 'Sam Rivera',
+    name: 'Zain Shahid',
     role: 'Co-Founder & CTO',
     bio: 'A young, passionate developer and system designer focused on writing clean, optimized code and architecting robust digital products.',
     image: founder2,
