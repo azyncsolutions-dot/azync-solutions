@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
-import { SiUpwork, SiFiverr } from 'react-icons/si';
+import { SiUpwork } from 'react-icons/si';
 import { ArrowRight, CheckCircle2, ShieldCheck, Briefcase } from 'lucide-react';
 import Badge from '../components/ui/Badge';
 import Card from '../components/ui/Card';
@@ -13,7 +13,7 @@ const HireUs = () => {
     <>
       <Helmet>
         <title>Hire Us | AZync Solutions</title>
-        <meta name="description" content="Hire AZync Solutions on Upwork and Fiverr. Work directly with our agency or individual founders." />
+        <meta name="description" content="Hire AZync Solutions on Upwork. Work directly with our agency or individual founders." />
       </Helmet>
 
       {/* Hero Section */}
@@ -27,7 +27,7 @@ const HireUs = () => {
               Let's Work <span className="text-gradient">Together</span>
             </h1>
             <p className="text-brand-gray text-lg md:text-xl max-w-2xl mx-auto">
-              Find us on Upwork and Fiverr. You can hire our full agency or collaborate with our founders individually.
+              Find us on Upwork. You can hire our full agency or collaborate with our founders individually.
             </p>
           </motion.div>
         </div>
@@ -162,16 +162,6 @@ const HireUs = () => {
                     className="w-full bg-[#14a800] hover:bg-[#108a00] text-white font-medium py-3 rounded-xl shadow-sm hover:shadow-md transition-all flex items-center justify-center gap-2 text-sm"
                   >
                     <SiUpwork size={16} /> Zain's Upwork Profile
-                  </a>
-                  
-                  {/* Fiverr Link */}
-                  <a 
-                    href="https://www.fiverr.com/s/z0R7X9X" // Placeholder/Clean Fiverr Link
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="w-full bg-[#1dbf73] hover:bg-[#10a860] text-white font-medium py-3 rounded-xl shadow-sm hover:shadow-md transition-all flex items-center justify-center gap-2 text-sm"
-                  >
-                    <SiFiverr size={22} /> Zain's Fiverr Profile
                   </a>
                 </div>
               </Card>
