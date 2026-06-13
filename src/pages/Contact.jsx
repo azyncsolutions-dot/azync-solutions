@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { useForm } from 'react-hook-form';
 import { Mail, MapPin, MessageSquare, Clock, ArrowRight } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
 import { faqs } from '../data/faq';
 import Badge from '../components/ui/Badge';
 import Button from '../components/ui/Button';
@@ -55,7 +56,25 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-jakarta font-bold text-brand-dark text-lg mb-1">Email Us</h4>
-                    <p className="text-brand-gray">hello@azyncsolutions.com</p>
+                    <p className="text-brand-gray">
+                      <a href="mailto:azyncsolutions@gmail.com" className="hover:text-brand-blue transition-colors">
+                        azyncsolutions@gmail.com
+                      </a>
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-full bg-[rgba(37,211,102,0.1)] text-[#25D366] flex items-center justify-center shrink-0">
+                    <FaWhatsapp size={24} />
+                  </div>
+                  <div>
+                    <h4 className="font-jakarta font-bold text-brand-dark text-lg mb-1">WhatsApp Us</h4>
+                    <p className="text-brand-gray">
+                      <a href="https://wa.me/923091840168" target="_blank" rel="noopener noreferrer" className="hover:text-brand-blue transition-colors">
+                        +92 309 1840168
+                      </a>
+                    </p>
                   </div>
                 </div>
 
