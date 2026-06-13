@@ -48,6 +48,7 @@ const Footer = () => {
             <ul className="flex flex-col gap-4">
               <li><Link to="/about" className="text-brand-gray hover:text-brand-blue text-sm transition-colors">About Us</Link></li>
               <li><Link to="/portfolio" className="text-brand-gray hover:text-brand-blue text-sm transition-colors">Our Work</Link></li>
+              <li><Link to="/hire-us" className="text-brand-gray hover:text-brand-blue text-sm transition-colors">Hire Our Team</Link></li>
               <li><Link to="/careers" className="text-brand-gray hover:text-brand-blue text-sm transition-colors">Careers</Link></li>
               <li><Link to="/blog" className="text-brand-gray hover:text-brand-blue text-sm transition-colors">Blog</Link></li>
             </ul>

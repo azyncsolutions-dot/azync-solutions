@@ -12,6 +12,7 @@ const CaseStudy = lazy(() => import('./pages/CaseStudy'));
 const Blog = lazy(() => import('./pages/Blog'));
 const BlogPost = lazy(() => import('./pages/BlogPost'));
 const Contact = lazy(() => import('./pages/Contact'));
+const HireUs = lazy(() => import('./pages/HireUs'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
 // Simple loading fallback
@@ -39,6 +40,7 @@ const App = () => {
               <Route path="blog" element={<Blog />} />
               <Route path="blog/:slug" element={<BlogPost />} />
               <Route path="contact" element={<Contact />} />
+              <Route path="hire-us" element={<HireUs />} />
               <Route path="*" element={<NotFound />} />
             </Route>
           </Routes>
