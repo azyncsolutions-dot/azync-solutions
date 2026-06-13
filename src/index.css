@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-brand-light text-brand-gray font-inter antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-jakarta text-brand-dark font-bold;
+  }
+}
+
+@layer utilities {
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .font-jakarta {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, #2196F3, #1565C0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .bg-brand-gradient {
+    background: linear-gradient(135deg, #2196F3 0%, #3F51B5 50%, #1565C0 100%);
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(33, 150, 243, 0.15);
+    box-shadow: 0 8px 32px rgba(21, 101, 192, 0.08);
+  }
+
+  .glass-nav {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(33, 150, 243, 0.1);
+  }
+
+  .blob-1 {
+    background: radial-gradient(circle, rgba(33,150,243,0.12) 0%, transparent 70%);
+  }
+
+  .blob-2 {
+    background: radial-gradient(circle, rgba(63,81,181,0.10) 0%, transparent 70%);
+  }
+}
