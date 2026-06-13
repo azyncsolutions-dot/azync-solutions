@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Zap, ArrowUp } from 'lucide-react';
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from 'react-icons/fa';
 import Button from '../ui/Button';
+import logo1 from '../../assets/logo1.jpeg';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -19,13 +20,8 @@ const Footer = () => {
           
           {/* Brand Col */}
           <div className="lg:col-span-4 flex flex-col gap-6">
-            <Link to="/" className="flex items-center gap-2 group w-fit">
-              <div className="relative flex items-center justify-center w-10 h-10 rounded-xl bg-brand-gradient shadow-brand">
-                <Zap className="text-white w-5 h-5" />
-              </div>
-              <span className="font-jakarta font-bold text-xl text-white tracking-tight">
-                AZync <span className="text-brand-gray font-semibold ml-1 text-sm tracking-widest">SOLUTIONS</span>
-              </span>
+            <Link to="/" className="flex items-center group w-fit bg-white px-4 py-2 rounded-xl shadow-brand-sm">
+              <img src={logo1} alt="AZync Solutions Logo" className="h-7 w-auto object-contain" />
             </Link>
             <p className="text-brand-gray text-sm leading-relaxed max-w-sm">
               Where passionate CS minds meet real-world problems. From idea to deployment, we build solutions that actually work.

@@ -1,3 +1,6 @@
+import founder1 from '../assets/founder1.jpg';
+import founder2 from '../assets/founder2.JPG';
+
 export const blogPosts = [
   {
     id: 1,
@@ -6,8 +9,8 @@ export const blogPosts = [
     excerpt: 'Dive into how React Server Components are fundamentally changing the way we build and optimize web applications.',
     category: 'Development',
     author: {
-      name: 'Alex Johnson',
-      avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=100'
+      name: 'Ali Shahzad',
+      avatar: founder1
     },
     date: 'Oct 15, 2024',
     readTime: '5 min read',
@@ -20,8 +23,8 @@ export const blogPosts = [
     excerpt: 'Practical strategies for embedding machine learning models and LLMs into legacy software without rewriting everything.',
     category: 'AI / ML',
     author: {
-      name: 'Sam Rivera',
-      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100'
+      name: 'Zain Shahid',
+      avatar: founder2
     },
     date: 'Oct 28, 2024',
     readTime: '7 min read',
@@ -34,8 +37,8 @@ export const blogPosts = [
     excerpt: 'Learn the principles of creating a robust design system that keeps your development fast and UI consistent.',
     category: 'Design',
     author: {
-      name: 'Alex Johnson',
-      avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=100'
+      name: 'Ali Shahzad',
+      avatar: founder1
     },
     date: 'Nov 05, 2024',
     readTime: '6 min read',

@@ -4,6 +4,7 @@ import { Menu, X, Zap } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '../../utils/cn';
 import Button from '../ui/Button';
+import logo1 from '../../assets/logo1.jpeg';
 
 const navLinks = [
   { name: 'Home', path: '/' },
@@ -42,13 +43,8 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-6 lg:px-8 max-w-7xl">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
-            <div className="relative flex items-center justify-center w-10 h-10 rounded-xl bg-brand-gradient shadow-brand group-hover:shadow-[0_6px_20px_rgba(33,150,243,0.50)] transition-all">
-              <Zap className="text-white w-5 h-5" />
-            </div>
-            <span className="font-jakarta font-bold text-xl text-brand-dark tracking-tight">
-              AZync <span className="text-brand-gray font-semibold ml-1 text-sm tracking-widest">SOLUTIONS</span>
-            </span>
+          <Link to="/" className="flex items-center group">
+            <img src={logo1} alt="AZync Solutions Logo" className="h-9 md:h-10 w-auto object-contain mix-blend-multiply" />
           </Link>
 
           {/* Desktop Nav */}
