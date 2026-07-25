@@ -18,8 +18,8 @@ const Services = () => {
   return (
     <>
       <Helmet>
-        <title>Services | AZync Solutions</title>
-        <meta name="description" content="End-to-End Tech Solutions by AZync Solutions. Web development, mobile apps, AI, and more." />
+        <title>Software Development Services | AZync Solutions</title>
+        <meta name="description" content="Explore our end-to-end custom software, web application, and mobile app development services. We bring ideas to life with scalable technology." />
       </Helmet>
 
       {/* Hero */}

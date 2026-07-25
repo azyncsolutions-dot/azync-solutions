@@ -12,8 +12,8 @@ const HireUs = () => {
   return (
     <>
       <Helmet>
-        <title>Hire Us | AZync Solutions</title>
-        <meta name="description" content="Hire AZync Solutions on Upwork. Work directly with our agency or individual founders." />
+        <title>Hire AZync Solutions | Upwork Freelance Agency & Developers</title>
+        <meta name="description" content="Looking for top-tier software developers? Hire AZync Solutions on Upwork. Work directly with our agency or contract our founders individually for your next project." />
       </Helmet>
 
       {/* Hero Section */}

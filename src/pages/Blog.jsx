@@ -15,8 +15,8 @@ const Blog = () => {
   return (
     <>
       <Helmet>
-        <title>Blog | AZync Solutions</title>
-        <meta name="description" content="Insights, Tutorials & Tech Thoughts from the team at AZync Solutions." />
+        <title>Tech Blog | AZync Solutions - Software Engineering Insights</title>
+        <meta name="description" content="Read the latest insights, tutorials, and tech thoughts on web development, mobile apps, and AI from the engineers at AZync Solutions." />
       </Helmet>
 
       {/* Hero */}

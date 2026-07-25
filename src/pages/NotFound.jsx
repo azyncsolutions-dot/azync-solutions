@@ -26,12 +26,14 @@ const NotFound = () => {
             <h2 className="text-2xl md:text-3xl font-jakarta font-bold text-brand-dark mb-6">
               Oops! Page not found.
             </h2>
-            <p className="text-brand-gray text-lg mb-10 max-w-md mx-auto">
+            <p className="text-brand-gray text-lg mb-8 max-w-md mx-auto">
               The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.
             </p>
-            <Button to="/" variant="primary">
-              Return Home
-            </Button>
+            <div className="flex flex-wrap justify-center gap-4 mb-10">
+              <Button to="/" variant="primary">Return Home</Button>
+              <Button to="/services" variant="outline">Our Services</Button>
+              <Button to="/contact" variant="outline">Contact Us</Button>
+            </div>
           </motion.div>
         </div>
       </section>

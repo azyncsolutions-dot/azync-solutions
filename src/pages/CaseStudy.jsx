@@ -23,7 +23,8 @@ const CaseStudy = () => {
   return (
     <>
       <Helmet>
-        <title>{project.title} | AZync Solutions</title>
+        <title>{project.title} | Case Study | AZync Solutions</title>
+        <meta name="description" content={`Read the case study for ${project.title}. ${project.description.slice(0, 150)}`} />
       </Helmet>
 
       {/* Hero Image */}

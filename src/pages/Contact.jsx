@@ -54,8 +54,8 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Us | AZync Solutions</title>
-        <meta name="description" content="Get in touch with AZync Solutions. We'd love to hear about your next project." />
+        <title>Contact AZync Solutions | Get a Free Consultation</title>
+        <meta name="description" content="Ready to build your next custom software project? Contact AZync Solutions today for a free consultation and let's turn your ideas into reality." />
       </Helmet>
 
       {/* Hero & Form Split Section */}

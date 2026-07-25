@@ -13,8 +13,25 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Home | AZync Solutions</title>
-        <meta name="description" content="AZync Solutions — where passionate CS minds meet real-world problems. We build modern web and mobile applications." />
+        <title>AZync Solutions | Custom Software & Web Development Company</title>
+        <meta name="description" content="AZync Solutions builds custom software, web, and mobile products for startups and businesses. Get a free consultation and turn your idea into reality." />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "AZync Solutions",
+              "url": "https://azync-solutions.vercel.app",
+              "logo": "https://azync-solutions.vercel.app/logo.png",
+              "description": "AZync Solutions builds custom software, web, and mobile products for startups and businesses.",
+              "sameAs": [
+                "https://www.linkedin.com/company/azync-solutions",
+                "https://twitter.com/azyncsolutions",
+                "https://github.com/azync-solutions"
+              ]
+            }
+          `}
+        </script>
       </Helmet>
       
       <HomeHero />

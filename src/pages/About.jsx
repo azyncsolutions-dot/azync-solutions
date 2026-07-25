@@ -19,8 +19,8 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About Us | AZync Solutions</title>
-        <meta name="description" content="Two Passionate Computer Scientists. One Mission. Infinite Solutions. Meet the team behind AZync Solutions." />
+        <title>About AZync Solutions | Our Tech Team & Mission</title>
+        <meta name="description" content="Meet the founders and team behind AZync Solutions. We are passionate computer scientists dedicated to solving real-world business problems through code." />
       </Helmet>
 
       {/* Hero Section */}

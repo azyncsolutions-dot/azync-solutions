@@ -18,8 +18,8 @@ const Portfolio = () => {
   return (
     <>
       <Helmet>
-        <title>Portfolio | AZync Solutions</title>
-        <meta name="description" content="Projects that speak for themselves. View our recent work in web, mobile, and AI." />
+        <title>Portfolio | AZync Solutions Case Studies</title>
+        <meta name="description" content="Explore our portfolio of successful projects. See how AZync Solutions delivers high-quality web, mobile, and AI solutions for our clients." />
       </Helmet>
 
       <section className="pt-32 pb-20 bg-brand-light relative overflow-hidden">

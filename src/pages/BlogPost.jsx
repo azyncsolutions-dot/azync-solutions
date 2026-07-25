@@ -24,6 +24,7 @@ const BlogPost = () => {
     <>
       <Helmet>
         <title>{post.title} | AZync Solutions Blog</title>
+        <meta name="description" content={post.excerpt || `Read ${post.title} on the AZync Solutions blog.`} />
       </Helmet>
 
       <article className="pt-32 pb-24 bg-white relative">
