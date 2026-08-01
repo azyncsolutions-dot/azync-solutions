@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Zap, ArrowUp } from 'lucide-react';
-import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaLinkedin, FaInstagram } from 'react-icons/fa';
 import Button from '../ui/Button';
 import logo1 from '../../assets/logo1.jpeg';
 
@@ -27,16 +27,10 @@ const Footer = () => {
               Where passionate CS minds meet real-world problems. From idea to deployment, we build solutions that actually work.
             </p>
             <div className="flex items-center gap-4 mt-2">
-              <a href="#" className="w-10 h-10 rounded-full bg-[rgba(255,255,255,0.05)] flex items-center justify-center text-brand-gray hover:text-brand-blue hover:bg-[rgba(33,150,243,0.1)] transition-colors">
-                <FaGithub size={20} />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-[rgba(255,255,255,0.05)] flex items-center justify-center text-brand-gray hover:text-brand-blue hover:bg-[rgba(33,150,243,0.1)] transition-colors">
+              <a href="https://www.linkedin.com/company/azync-solutions" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[rgba(255,255,255,0.05)] flex items-center justify-center text-brand-gray hover:text-brand-blue hover:bg-[rgba(33,150,243,0.1)] transition-colors">
                 <FaLinkedin size={20} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-[rgba(255,255,255,0.05)] flex items-center justify-center text-brand-gray hover:text-brand-blue hover:bg-[rgba(33,150,243,0.1)] transition-colors">
-                <FaTwitter size={20} />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-[rgba(255,255,255,0.05)] flex items-center justify-center text-brand-gray hover:text-brand-blue hover:bg-[rgba(33,150,243,0.1)] transition-colors">
+              <a href="https://www.instagram.com/azyncsolutions?igsh=aDh0Yzl3d2xjeXpt&utm_source=qr" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[rgba(255,255,255,0.05)] flex items-center justify-center text-brand-gray hover:text-brand-blue hover:bg-[rgba(33,150,243,0.1)] transition-colors">
                 <FaInstagram size={20} />
               </a>
             </div>
