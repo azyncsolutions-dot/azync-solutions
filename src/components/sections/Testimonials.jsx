@@ -252,6 +252,7 @@ const Testimonials = () => {
             {[
               { value: '5.0', label: 'Average Rating' },
               { value: '100%', label: 'Job Success' },
+              { value: '40+', label: 'Projects Delivered' },
             ].map((stat) => (
               <div key={stat.label} className="text-center">
                 <p className="text-3xl font-jakarta font-bold text-gray-900">{stat.value}</p>

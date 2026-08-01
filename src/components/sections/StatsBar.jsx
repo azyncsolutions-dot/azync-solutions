@@ -25,9 +25,9 @@ const AnimatedCounter = ({ end, duration = 2, suffix = '' }) => {
 
 const StatsBar = () => {
   const stats = [
-    { id: 1, end: 10, suffix: '+', label: 'Projects Delivered' },
+    { id: 1, end: 5, suffix: '+', label: 'Years of Experience' },
     { id: 2, end: 2, suffix: '', label: 'Passionate Founders' },
-    { id: 3, end: 5, suffix: '+', label: 'Happy Clients' },
+    { id: 3, end: 40, suffix: '+', label: 'Projects Delivered' },
     { id: 4, end: 100, suffix: '%', label: 'On-Time Delivery' },
   ];
 

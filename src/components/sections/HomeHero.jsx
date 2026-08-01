@@ -41,7 +41,7 @@ const HomeHero = () => {
               We Build Solutions That <span className="text-gradient">Actually Work</span>
             </h1>
             <p className="text-lg md:text-xl text-brand-gray max-w-xl leading-relaxed">
-              AZync Solutions — where passionate CS minds meet real-world problems. From idea to deployment, we've got you.
+              AZync Solutions, where passionate CS minds meet real-world problems. From idea to deployment, we've got you.
             </p>
             <div className="flex flex-wrap items-center gap-4 mt-4">
               <Button to="/portfolio" variant="primary">See Our Work</Button>

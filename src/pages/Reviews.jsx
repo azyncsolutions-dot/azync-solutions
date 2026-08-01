@@ -469,6 +469,7 @@ const Reviews = () => {
             <div className="flex flex-wrap justify-center gap-4">
               <AnimatedStat icon={Star}   value="5.0"  label="Avg. Rating"  delay={0.3} />
               <AnimatedStat icon={Award}  value="100%" label="Job Success"   delay={0.4} />
+              <AnimatedStat icon={Users}  value="40+"  label="Projects Delivered" delay={0.5} />
             </div>
           </motion.div>
         </div>
