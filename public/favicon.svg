@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Z shape (purple) — bottom right, parallelogram style -->
+  <polygon points="35,55 88,55 88,68 48,68" fill="#5A35C0"/>
+  <polygon points="52,40 88,40 88,55 35,55 52,40" fill="#5A35C0"/>
+
+  <!-- A shape (blue) — top left, peaks up -->
+  <!-- Outer A silhouette -->
+  <polygon points="5,82 24,18 40,18 48,42 34,42 26,65 14,82" fill="#3D82F0"/>
+  <!-- white cutout inside A -->
+  <polygon points="24,24 38,24 33,42 19,42" fill="white"/>
+  <!-- top cap of A (the slanted top bar) -->
+  <polygon points="24,18 48,18 44,30 20,30" fill="#3D82F0"/>
+</svg>
