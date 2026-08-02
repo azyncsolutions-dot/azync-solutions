@@ -4,7 +4,7 @@ import { Menu, X, Zap } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '../../utils/cn';
 import Button from '../ui/Button';
-import logo1 from '../../assets/logo1.jpeg';
+import faviconLogo from '../../../public/favicon.png';
 
 const navLinks = [
   { name: 'Home', path: '/' },
@@ -46,7 +46,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center group">
-            <img src={logo1} alt="AZync Solutions Logo" className="h-9 md:h-10 w-auto object-contain mix-blend-multiply" />
+            <img src={faviconLogo} alt="AZync Solutions Logo" className="h-9 md:h-10 w-auto object-contain" />
           </Link>
 
           {/* Desktop Nav */}
