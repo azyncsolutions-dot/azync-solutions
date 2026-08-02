@@ -46,7 +46,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center group">
-            <img src={faviconLogo} alt="AZync Solutions Logo" className="h-9 md:h-10 w-auto object-contain" />
+            <img src={faviconLogo} alt="AZync Solutions Logo" className="h-14 md:h-16 w-auto object-contain" />
           </Link>
 
           {/* Desktop Nav */}
