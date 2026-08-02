@@ -110,7 +110,7 @@ const HireUs = () => {
             >
               <Card className="h-full flex flex-col p-6 border border-brand-border hover:border-brand-blue/20 shadow-sm relative overflow-hidden group">
                 <div className="flex items-center gap-4 mb-6">
-                  <img src={founder1} alt="Ali Shahzad" className="w-16 h-16 rounded-full object-cover border-2 border-brand-blue" />
+                  <img src={founder1} alt="Ali Shahzad" className="w-16 h-16 rounded-full object-cover object-top" />
                   <div>
                     <h4 className="text-xl font-jakarta font-bold text-brand-dark mb-0.5">Ali Shahzad</h4>
                     <p className="text-brand-blue text-sm font-semibold">Co-Founder & CEO</p>
@@ -143,7 +143,7 @@ const HireUs = () => {
             >
               <Card className="h-full flex flex-col p-6 border border-brand-border hover:border-brand-blue/20 shadow-sm relative overflow-hidden group">
                 <div className="flex items-center gap-4 mb-6">
-                  <img src={founder2} alt="Zain Shahid" className="w-16 h-16 rounded-full object-cover border-2 border-brand-blue" />
+                  <img src={founder2} alt="Zain Shahid" className="w-16 h-16 rounded-full object-cover object-top" />
                   <div>
                     <h4 className="text-xl font-jakarta font-bold text-brand-dark mb-0.5">Zain Shahid</h4>
                     <p className="text-brand-blue text-sm font-semibold">Co-Founder & CTO</p>
