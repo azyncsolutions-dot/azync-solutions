@@ -1,5 +1,5 @@
-import founder1 from '../assets/founder1.jpg';
-import founder2 from '../assets/founder2.JPG';
+import founder1 from '../assets/founder1.png';
+import founder2 from '../assets/founder2.png';
 
 export const team = [
   {
