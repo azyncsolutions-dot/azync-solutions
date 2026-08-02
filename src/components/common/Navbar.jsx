@@ -4,7 +4,7 @@ import { Menu, X, Zap } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '../../utils/cn';
 import Button from '../ui/Button';
-import faviconLogo from '../../../public/favicon.svg';
+import faviconLogo from '../../../public/favicon.png';
 
 const navLinks = [
   { name: 'Home', path: '/' },
