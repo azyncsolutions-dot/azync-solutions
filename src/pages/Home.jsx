@@ -15,21 +15,31 @@ const Home = () => {
       <Helmet>
         <title>AZync Solutions | Custom Software & Web Development Company</title>
         <meta name="description" content="AZync Solutions builds custom software, web, and mobile products for startups and businesses. Get a free consultation and turn your idea into reality." />
+        <link rel="canonical" href="https://azyncsolutions.com/" />
         <script type="application/ld+json">
           {`
-            {
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              "name": "AZync Solutions",
-              "url": "https://azyncsolutions.com",
-              "logo": "https://azyncsolutions.com/logo.png",
-              "description": "AZync Solutions builds custom software, web, and mobile products for startups and businesses.",
-              "sameAs": [
-                "https://www.linkedin.com/company/azync-solutions",
-                "https://twitter.com/azyncsolutions",
-                "https://github.com/azync-solutions"
-              ]
-            }
+            [
+              {
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "AZync Solutions",
+                "alternateName": ["AZync", "azyncsolutions", "azyncsolutions.com"],
+                "url": "https://azyncsolutions.com",
+                "logo": "https://azyncsolutions.com/favicon.png",
+                "description": "AZync Solutions builds custom software, web, and mobile products for startups and businesses.",
+                "sameAs": [
+                  "https://www.linkedin.com/company/azync-solutions",
+                  "https://twitter.com/azyncsolutions",
+                  "https://github.com/azync-solutions"
+                ]
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                "name": "AZync Solutions",
+                "url": "https://azyncsolutions.com"
+              }
+            ]
           `}
         </script>
       </Helmet>
