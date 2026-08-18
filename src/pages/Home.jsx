@@ -21,8 +21,8 @@ const Home = () => {
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "AZync Solutions",
-              "url": "https://azync-solutions.vercel.app",
-              "logo": "https://azync-solutions.vercel.app/logo.png",
+              "url": "https://azyncsolutions.com",
+              "logo": "https://azyncsolutions.com/logo.png",
               "description": "AZync Solutions builds custom software, web, and mobile products for startups and businesses.",
               "sameAs": [
                 "https://www.linkedin.com/company/azync-solutions",

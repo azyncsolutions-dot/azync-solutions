@@ -7,6 +7,7 @@ const dynamicRoutes = [
   '/about',
   '/services',
   '/portfolio',
+  '/reviews',
   '/blog',
   '/contact',
   '/hire-us'
@@ -17,7 +18,7 @@ export default defineConfig({
   plugins: [
     react(),
     Sitemap({
-      hostname: 'https://azync-solutions.vercel.app',
+      hostname: 'https://azyncsolutions.com',
       dynamicRoutes,
     }),
   ],
