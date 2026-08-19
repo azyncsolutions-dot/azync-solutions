@@ -18,7 +18,7 @@ export default defineConfig({
   plugins: [
     react(),
     Sitemap({
-      hostname: 'https://azyncsolutions.com',
+      hostname: 'https://www.azyncsolutions.com',
       dynamicRoutes,
     }),
   ],
