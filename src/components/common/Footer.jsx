@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Zap, ArrowUp } from 'lucide-react';
-import { FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
+import { SiUpwork } from 'react-icons/si';
 import Button from '../ui/Button';
 import logo1 from '../../assets/logo1.jpeg';
 
@@ -24,13 +25,19 @@ const Footer = () => {
               <img src={logo1} alt="AZync Solutions Logo" className="h-7 w-auto object-contain" />
             </Link>
             <p className="text-brand-gray text-sm leading-relaxed max-w-sm">
-              Where passionate CS minds meet real-world problems. From idea to deployment, we build solutions that actually work.
+              AI voice agents and software automation studio founded in March 2026. Building practical digital solutions on Claude API.
             </p>
-            <div className="flex items-center gap-4 mt-2">
-              <a href="https://www.linkedin.com/company/azync-solutions" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[rgba(255,255,255,0.05)] flex items-center justify-center text-brand-gray hover:text-brand-blue hover:bg-[rgba(33,150,243,0.1)] transition-colors">
+            <div className="flex items-center gap-3 mt-2 flex-wrap">
+              <a href="https://www.upwork.com/freelancers/alis775?mp_source=share" target="_blank" rel="noopener noreferrer" title="Upwork Profile" className="w-10 h-10 rounded-full bg-[rgba(255,255,255,0.05)] flex items-center justify-center text-brand-gray hover:text-green-400 hover:bg-[rgba(74,222,128,0.1)] transition-colors">
+                <SiUpwork size={20} />
+              </a>
+              <a href="https://github.com/azyncsolutions-dot" target="_blank" rel="noopener noreferrer" title="GitHub" className="w-10 h-10 rounded-full bg-[rgba(255,255,255,0.05)] flex items-center justify-center text-brand-gray hover:text-white hover:bg-[rgba(255,255,255,0.1)] transition-colors">
+                <FaGithub size={20} />
+              </a>
+              <a href="https://www.linkedin.com/company/azync-solutions" target="_blank" rel="noopener noreferrer" title="LinkedIn" className="w-10 h-10 rounded-full bg-[rgba(255,255,255,0.05)] flex items-center justify-center text-brand-gray hover:text-brand-blue hover:bg-[rgba(33,150,243,0.1)] transition-colors">
                 <FaLinkedin size={20} />
               </a>
-              <a href="https://www.instagram.com/azyncsolutions?igsh=aDh0Yzl3d2xjeXpt&utm_source=qr" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[rgba(255,255,255,0.05)] flex items-center justify-center text-brand-gray hover:text-brand-blue hover:bg-[rgba(33,150,243,0.1)] transition-colors">
+              <a href="https://www.instagram.com/azyncsolutions?igsh=aDh0Yzl3d2xjeXpt&utm_source=qr" target="_blank" rel="noopener noreferrer" title="Instagram" className="w-10 h-10 rounded-full bg-[rgba(255,255,255,0.05)] flex items-center justify-center text-brand-gray hover:text-brand-blue hover:bg-[rgba(33,150,243,0.1)] transition-colors">
                 <FaInstagram size={20} />
               </a>
             </div>
@@ -81,7 +88,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-[rgba(33,150,243,0.20)] flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-brand-gray text-sm">
-            © {new Date().getFullYear()} AZync Solutions. Built with ❤️ by two passionate computer scientists.
+            © {new Date().getFullYear()} AZync Solutions. Founded March 2026 in Islamabad, Pakistan.
           </p>
           <div className="flex items-center gap-6">
             <Link to="/privacy" className="text-brand-gray hover:text-brand-blue text-sm transition-colors">Privacy Policy</Link>

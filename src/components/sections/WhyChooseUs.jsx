@@ -86,7 +86,7 @@ const WhyChooseUs = () => {
                 transition={{ duration: 4, repeat: Infinity }}
                 className="absolute top-10 -right-5 w-20 h-20 bg-white rounded-xl shadow-brand-lg border border-brand-border flex items-center justify-center z-20"
               >
-                 <div className="font-jakarta font-bold text-xl text-gradient">100%</div>
+                 <div className="font-jakarta font-bold text-xs text-center text-gradient leading-tight px-1">Upwork Verified</div>
               </motion.div>
               <motion.div 
                 animate={{ y: [0, 15, 0] }}

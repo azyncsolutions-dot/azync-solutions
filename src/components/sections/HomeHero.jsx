@@ -36,16 +36,16 @@ const HomeHero = () => {
             transition={{ duration: 0.8 }}
             className="flex flex-col items-start gap-6"
           >
-            <Badge className="mb-2">Innovate With Us</Badge>
-            <h1 className="text-5xl md:text-6xl lg:text-7xl leading-[1.1] tracking-tight">
-              We Build Solutions That <span className="text-gradient">Actually Work</span>
+            <Badge className="mb-2">Powered by Claude API</Badge>
+            <h1 className="text-5xl md:text-6xl lg:text-7xl leading-[1.1] tracking-tight text-brand-dark font-jakarta font-bold">
+              AI voice agents and automation, <span className="text-gradient">built on Claude.</span>
             </h1>
             <p className="text-lg md:text-xl text-brand-gray max-w-xl leading-relaxed">
-              AZync Solutions, where passionate CS minds meet real-world problems. From idea to deployment, we've got you.
+              We build intelligent AI voice receptionists, custom workflow automation, and web applications for HVAC providers, service businesses, startups, and SMBs.
             </p>
             <div className="flex flex-wrap items-center gap-4 mt-4">
-              <Button to="/portfolio" variant="primary">See Our Work</Button>
-              <Button to="/contact" variant="ghost">Let's Talk</Button>
+              <Button to="/riley" variant="primary">Watch Riley demo</Button>
+              <Button to="/contact" variant="outline">Book a call</Button>
             </div>
           </motion.div>
 

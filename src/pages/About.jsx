@@ -19,8 +19,8 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About AZync Solutions | Our Tech Team & Mission</title>
-        <meta name="description" content="Meet the founders and team behind AZync Solutions. We are passionate computer scientists dedicated to solving real-world business problems through code." />
+        <title>About AZync Solutions | Founders & Mission</title>
+        <meta name="description" content="Meet co-founders Ali Shahzad and Zain Shahid at AZync Solutions. Founded in March 2026 in Islamabad, Pakistan, building AI voice agents and custom software." />
       </Helmet>
 
       {/* Hero Section */}
@@ -32,7 +32,7 @@ const About = () => {
               Two Passionate Computer Scientists.<br />One Mission.<br className="hidden md:block"/> <span className="text-gradient">Infinite Solutions.</span>
             </h1>
             <p className="text-brand-gray text-lg md:text-xl max-w-2xl mx-auto">
-              We started AZync Solutions with a simple idea: to bridge the gap between academic computer science and real-world business problems.
+              Founded in March 2026 in Islamabad, Pakistan, we started AZync Solutions to build practical AI voice agents and scalable software for startups and service businesses worldwide.
             </p>
           </motion.div>
         </div>
@@ -50,7 +50,7 @@ const About = () => {
                 </div>
                 <h3 className="text-2xl font-jakarta font-bold text-brand-dark mb-4">Our Mission</h3>
                 <p className="text-brand-gray text-lg leading-relaxed">
-                  To make powerful, scalable tech solutions accessible to everyone — from ambitious startups to established local businesses, empowering them to thrive in the digital age.
+                  To make powerful, scalable AI and software solutions accessible to ambitious startups, HVAC providers, and service businesses worldwide.
                 </p>
               </Card>
             </motion.div>
@@ -61,7 +61,7 @@ const About = () => {
                 </div>
                 <h3 className="text-2xl font-jakarta font-bold text-white mb-4">Our Vision</h3>
                 <p className="text-white/80 text-lg leading-relaxed">
-                  To become a globally recognized problem-solving tech studio, known for our unwavering commitment to quality, innovation, and pragmatic engineering.
+                  To build a trusted problem-solving tech studio serving clients worldwide, known for software quality, innovation, and pragmatic engineering.
                 </p>
               </Card>
             </motion.div>

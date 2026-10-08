@@ -120,7 +120,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-jakarta font-bold text-brand-dark text-lg mb-1">Location</h4>
-                    <p className="text-brand-gray">Global / Remote</p>
+                    <p className="text-brand-gray">Based in Islamabad, Pakistan. Working with clients worldwide.</p>
                   </div>
                 </div>
               </div>

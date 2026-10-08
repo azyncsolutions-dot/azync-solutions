@@ -1,5 +1,5 @@
-import founder1 from '../assets/founder1.jpg';
-import founder2 from '../assets/founder2.JPG';
+import founder1 from '../assets/founder1.png';
+import founder2 from '../assets/founder2.png';
 
 export const blogPosts = [
   {
@@ -12,7 +12,7 @@ export const blogPosts = [
       name: 'Ali Shahzad',
       avatar: founder1
     },
-    date: 'Oct 15, 2024',
+    date: 'Apr 15, 2026',
     readTime: '5 min read',
     image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&q=80&w=800'
   },
@@ -26,7 +26,7 @@ export const blogPosts = [
       name: 'Zain Shahid',
       avatar: founder2
     },
-    date: 'Oct 28, 2024',
+    date: 'May 12, 2026',
     readTime: '7 min read',
     image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800'
   },
@@ -40,7 +40,7 @@ export const blogPosts = [
       name: 'Ali Shahzad',
       avatar: founder1
     },
-    date: 'Nov 05, 2024',
+    date: 'Jun 04, 2026',
     readTime: '6 min read',
     image: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&q=80&w=800'
   }

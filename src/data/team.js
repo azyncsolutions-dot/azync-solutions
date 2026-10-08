@@ -10,7 +10,7 @@ export const team = [
     image: founder1,
     skills: ['Product Strategy', 'Full-Stack Dev', 'Cloud Arch'],
     socials: {
-      linkedin: 'https://linkedin.com/in/ali-shahzad-2b10832a6',
+      linkedin: 'https://www.linkedin.com/in/ali-shahzad-2b10832a6',
       github: 'https://github.com/AliShahzad025'
     }
   },
@@ -18,11 +18,11 @@ export const team = [
     id: 2,
     name: 'Zain Shahid',
     role: 'Co-Founder & CTO',
-    bio: 'A young, passionate developer and system designer focused on writing clean, optimized code and architecting robust digital products.',
+    bio: 'Computer scientist and full-stack systems engineer architecting voice agent pipelines, backend workflows, and web applications.',
     image: founder2,
-    skills: ['AI/ML', 'System Design', 'Backend Dev'],
+    skills: ['Claude API', 'Voice Pipelines', 'System Architecture'],
     socials: {
-      linkedin: 'https://www.linkedin.com/in/zain-shahid-94a3a2390/',
+      linkedin: 'https://www.linkedin.com/in/zain-shahid-94a3a2390',
       github: 'https://github.com/zain31197'
     }
   }

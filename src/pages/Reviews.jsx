@@ -100,7 +100,7 @@ const allReviews = [
 
 // ─── World dot positions ──────────────────────────────────────────────────────
 const worldDots = [
-  { x: 66, y: 42, isHome: true, label: "Pakistan — HQ", size: 2.2 },
+  { x: 66, y: 42, isHome: true, label: "Islamabad, Pakistan", size: 2.2 },
   { x: 20, y: 36, label: "United States", size: 1.8 },
   { x: 22, y: 27, label: "Canada", size: 1.6 },
   { x: 52, y: 29, label: "Poland", size: 1.5 },
@@ -420,8 +420,8 @@ const Reviews = () => {
   return (
     <>
       <Helmet>
-        <title>Client Reviews | AZync Solutions — Trusted Worldwide</title>
-        <meta name="description" content="Read verified 5-star reviews from AZync Solutions' global clients. Real feedback from clients across the world." />
+        <title>Client Reviews | AZync Solutions — Upwork Testimonials</title>
+        <meta name="description" content="Read reviews earned by our founders on Upwork across international software projects." />
       </Helmet>
 
       {/* ── HERO ─────────────────────────────────────────────── */}
@@ -446,7 +446,7 @@ const Reviews = () => {
             >
               <Badge className="mb-6">
                 <Globe2 size={14} className="inline mr-1.5 -mt-0.5" />
-                Clients from Across the Globe
+                Clients Worldwide
               </Badge>
             </motion.div>
 
@@ -462,13 +462,13 @@ const Reviews = () => {
               transition={{ delay: 0.4 }}
               className="text-brand-gray text-lg md:text-xl max-w-2xl mx-auto mb-14"
             >
-              Every review is 100% real and verified — directly from our satisfied clients around the world.
+              Reviews earned by our founders on Upwork prior to forming AZync Solutions. Visit our <a href="https://www.upwork.com/freelancers/alis775?mp_source=share" target="_blank" rel="noopener noreferrer" className="text-brand-blue underline font-medium">Upwork Profile</a>.
             </motion.p>
 
             {/* Stats */}
             <div className="flex flex-wrap justify-center gap-4">
-              <AnimatedStat icon={Star}   value="5.0"  label="Avg. Rating"  delay={0.3} />
-              <AnimatedStat icon={Award}  value="100%" label="Job Success"   delay={0.4} />
+              <AnimatedStat icon={Star}   value="5.0"  label="Upwork Rating"  delay={0.3} />
+              <AnimatedStat icon={Award}  value="100%" label="Upwork Job Success"   delay={0.4} />
               <AnimatedStat icon={Users}  value="40+"  label="Projects Delivered" delay={0.5} />
             </div>
           </motion.div>
@@ -486,19 +486,19 @@ const Reviews = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.7, type: 'spring' }}
             >
-              <Badge className="mb-4">Our Global Reach</Badge>
+              <Badge className="mb-4">Clients Worldwide</Badge>
               <h2 className="text-3xl md:text-4xl font-jakarta font-bold text-brand-dark mb-5">
                 Delivering Excellence{' '}
                 <span className="text-brand-blue">Across Borders</span>
               </h2>
               <p className="text-brand-gray text-base leading-relaxed mb-6">
-                From our headquarters in Pakistan, we've partnered with clients across
-                North America, Europe, the Caribbean, and beyond, building software
-                solutions that transcend time zones and cultures.
+                Based in Islamabad, Pakistan, we work with clients across
+                North America, Europe, the Caribbean, and beyond, building AI voice agents
+                and custom software solutions.
               </p>
               <p className="text-brand-gray text-base leading-relaxed mb-8">
-                Our team delivers AI-powered solutions, web applications, and automation
-                systems to businesses of every size, from scrappy startups to established enterprises.
+                We deliver AI voice receptionists, custom software integrations, and web applications
+                tailored for HVAC companies, startups, and SMBs.
               </p>
               <motion.a
                 href="/contact"
@@ -506,7 +506,7 @@ const Reviews = () => {
                 whileTap={{ scale: 0.97 }}
                 className="inline-flex items-center gap-2 text-brand-blue font-bold text-sm hover:underline"
               >
-                Join our global family <ArrowRight size={16} />
+                Work with us <ArrowRight size={16} />
               </motion.a>
             </motion.div>
 

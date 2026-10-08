@@ -13,8 +13,8 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>AZync Solutions | Custom Software & Web Development Company</title>
-        <meta name="description" content="AZync Solutions builds custom software, web, and mobile products for startups and businesses. Get a free consultation and turn your idea into reality." />
+        <title>AZync Solutions | AI Voice Agents & Automation Built on Claude</title>
+        <meta name="description" content="AZync Solutions builds AI voice agents, custom automation, and web applications built on Claude for HVAC businesses, startups, and SMBs worldwide." />
         <link rel="canonical" href="https://www.azyncsolutions.com/" />
         <script type="application/ld+json">
           {`
@@ -24,9 +24,15 @@ const Home = () => {
                 "@type": "Organization",
                 "name": "AZync Solutions",
                 "alternateName": ["AZync", "azyncsolutions", "azyncsolutions.com"],
+                "foundingDate": "2026-03",
                 "url": "https://www.azyncsolutions.com",
                 "logo": "https://www.azyncsolutions.com/favicon.png",
                 "description": "AZync Solutions builds custom software, web, and mobile products for startups and businesses.",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Islamabad",
+                  "addressCountry": "PK"
+                },
                 "sameAs": [
                   "https://www.linkedin.com/company/azync-solutions",
                   "https://twitter.com/azyncsolutions",

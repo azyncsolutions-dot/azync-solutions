@@ -17,10 +17,10 @@ export const services = [
   },
   {
     id: 3,
-    title: 'AI & ML Solutions',
-    description: 'Integrate intelligent automation, chatbots, and predictive algorithms into your business.',
+    title: 'AI Voice Agents & LLM Integration',
+    description: '24/7 AI voice receptionists (like Riley for HVAC businesses) and custom automation workflows built on Claude API.',
     icon: BrainCircuit,
-    tags: ['Python', 'TensorFlow', 'OpenAI', 'NLP']
+    tags: ['Claude API', 'Voice Agents', 'Anthropic', 'Automation']
   },
   {
     id: 4,

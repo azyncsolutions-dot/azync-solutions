@@ -8,6 +8,7 @@ import faviconLogo from '../../../public/favicon.png';
 
 const navLinks = [
   { name: 'Home', path: '/' },
+  { name: 'Riley AI', path: '/riley' },
   { name: 'About', path: '/about' },
   { name: 'Services', path: '/services' },
   { name: 'Portfolio', path: '/portfolio' },

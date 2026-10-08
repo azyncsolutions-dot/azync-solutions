@@ -238,7 +238,7 @@ const Testimonials = () => {
               Clients Love <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Our Work</span>
             </h2>
             <p className="text-gray-500 text-lg max-w-xl mx-auto">
-              Real reviews from real clients. Every word is directly from our Upwork profile.
+              Reviews earned by our founders on Upwork prior to forming AZync Solutions in March 2026. Visit our profile on <a href="https://www.upwork.com/freelancers/alis775?mp_source=share" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline font-medium">Upwork</a>.
             </p>
           </motion.div>
 
@@ -250,8 +250,8 @@ const Testimonials = () => {
             className="flex justify-center gap-8 mt-8 flex-wrap"
           >
             {[
-              { value: '5.0', label: 'Average Rating' },
-              { value: '100%', label: 'Job Success' },
+              { value: '5.0', label: 'Upwork Rating' },
+              { value: '100%', label: 'Upwork Job Success' },
               { value: '40+', label: 'Projects Delivered' },
             ].map((stat) => (
               <div key={stat.label} className="text-center">
