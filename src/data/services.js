@@ -18,9 +18,9 @@ export const services = [
   {
     id: 3,
     title: 'AI Voice Agents & LLM Integration',
-    description: '24/7 AI voice receptionists (like Riley for HVAC businesses) and custom automation workflows built on Claude API.',
+    description: '24/7 AI voice receptionists (like Riley for HVAC businesses) and custom intelligent automation workflows.',
     icon: BrainCircuit,
-    tags: ['Claude API', 'Voice Agents', 'Anthropic', 'Automation']
+    tags: ['Voice AI', 'AI Agents', 'Automation', 'Workflows']
   },
   {
     id: 4,

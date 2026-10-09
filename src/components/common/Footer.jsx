@@ -25,7 +25,7 @@ const Footer = () => {
               <img src={logo1} alt="AZync Solutions Logo" className="h-7 w-auto object-contain" />
             </Link>
             <p className="text-brand-gray text-sm leading-relaxed max-w-sm">
-              AI voice agents and software automation studio founded in March 2026. Building practical digital solutions on Claude API.
+              AI voice agents and software automation studio founded in March 2026. Building practical digital solutions for businesses worldwide.
             </p>
             <div className="flex items-center gap-3 mt-2 flex-wrap">
               <a href="https://www.upwork.com/freelancers/alis775?mp_source=share" target="_blank" rel="noopener noreferrer" title="Upwork Profile" className="w-10 h-10 rounded-full bg-[rgba(255,255,255,0.05)] flex items-center justify-center text-brand-gray hover:text-green-400 hover:bg-[rgba(74,222,128,0.1)] transition-colors">

@@ -32,14 +32,14 @@ const Terms = () => {
             <div>
               <h2 className="text-2xl font-jakarta font-bold mb-3">2. Intellectual Property</h2>
               <p className="text-brand-gray">
-                Upon full payment of agreed fees, clients retain ownership of custom software deliverables created specifically for their project, subject to third-party underlying APIs (e.g., Anthropic Claude API) and open-source licenses where applicable.
+                Upon full payment of agreed fees, clients retain ownership of custom software deliverables created specifically for their project, subject to third-party underlying APIs and open-source licenses where applicable.
               </p>
             </div>
 
             <div>
               <h2 className="text-2xl font-jakarta font-bold mb-3">3. Use of AI Technologies</h2>
               <p className="text-brand-gray">
-                Our AI voice receptionists and workflow tools use Claude API by Anthropic. Clients and users agree to comply with Anthropic's Acceptable Use Policy when interacting with integrated AI features.
+                Our AI voice receptionists and workflow tools utilize modern AI models and voice integrations. Clients and users agree to use integrated AI features responsibly and in accordance with applicable privacy and communication regulations.
               </p>
             </div>
 

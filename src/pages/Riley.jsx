@@ -1,12 +1,12 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
-import { PhoneCall, Cpu, CheckCircle2, ShieldCheck, Zap, ArrowRight, Play, Clock, Flame, UserCheck } from 'lucide-react';
+import { PhoneCall, Cpu, CheckCircle2, ShieldCheck, Zap, Play, Clock, Flame, UserCheck } from 'lucide-react';
 import Badge from '../components/ui/Badge';
 import Card from '../components/ui/Card';
 import Button from '../components/ui/Button';
 
-import hvacVideo from '../assets/AI that answers 24x7 HVAC.mp4';
+import whatsappVideo from '../assets/WhatsApp Video 2026-10-09 at 9.45.35 PM.mp4';
 
 const steps = [
   {
@@ -16,8 +16,8 @@ const steps = [
   },
   {
     step: '02',
-    title: 'Claude-Powered Triage & Diagnosis',
-    desc: 'Powered by Claude API, Riley asks smart diagnostic questions, determines if an HVAC issue is a critical emergency (e.g. heating outage in winter), and collects caller location.'
+    title: 'AI-Powered Triage & Diagnosis',
+    desc: 'Powered by voice AI, Riley asks smart diagnostic questions, determines if an HVAC issue is a critical emergency (e.g. heating outage in winter), and collects caller location.'
   },
   {
     step: '03',
@@ -28,7 +28,7 @@ const steps = [
 
 const features = [
   { icon: Clock, title: '24/7 After-Hours Answering', desc: 'Never lose another $1,000+ HVAC repair lead to voicemail or a competitor when your office is closed.' },
-  { icon: Cpu, title: 'Built on Claude API', desc: 'Understands complex speech, accent variations, and contractor jargon naturally without rigid phone trees.' },
+  { icon: Cpu, title: 'Advanced Voice AI', desc: 'Understands complex speech, accent variations, and contractor jargon naturally without rigid phone trees.' },
   { icon: Flame, title: 'Emergency HVAC Triage', desc: 'Identifies urgent system breakdowns vs routine maintenance calls and escalates accordingly.' },
   { icon: ShieldCheck, title: 'Zero Hold Times', desc: 'Handles simultaneous concurrent calls effortlessly during weather spikes or peak dispatch hours.' },
   { icon: Zap, title: 'Instant Job Summaries', desc: 'Generates structured job tickets and sends SMS alerts directly to your technicians or dispatchers.' },
@@ -39,8 +39,8 @@ const Riley = () => {
   return (
     <>
       <Helmet>
-        <title>Riley | AI Voice Receptionist for HVAC Businesses (Built on Claude)</title>
-        <meta name="description" content="Riley is an AI voice receptionist for HVAC and service businesses, built on Claude API. Stop missing calls and capture after-hours leads 24/7." />
+        <title>Riley | AI Voice Receptionist for HVAC Businesses</title>
+        <meta name="description" content="Riley is an AI voice receptionist for HVAC and service businesses. Stop missing calls and capture after-hours leads 24/7." />
         <link rel="canonical" href="https://www.azyncsolutions.com/riley" />
       </Helmet>
 
@@ -49,50 +49,32 @@ const Riley = () => {
         <div className="container mx-auto px-4 md:px-6 lg:px-8 max-w-7xl relative z-10 text-center">
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
             <Badge className="mb-6">
-              <Cpu size={14} className="inline mr-1.5 -mt-0.5" />
-              Built on Claude API
+              <PhoneCall size={14} className="inline mr-1.5 -mt-0.5" />
+              24/7 AI Voice Receptionist
             </Badge>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-jakarta font-bold text-brand-dark mb-6 leading-tight">
               Riley: AI Voice Receptionist for <br className="hidden md:block" />
               <span className="text-gradient">HVAC & Service Businesses</span>
             </h1>
             <p className="text-brand-gray text-lg md:text-xl max-w-3xl mx-auto mb-8 leading-relaxed">
-              Never miss a high-value emergency service call again. Riley answers 24/7, triages caller requests, and dispatches jobs automatically — powered by Anthropic's Claude API.
+              Never miss a high-value emergency service call again. Riley answers 24/7, triages caller requests, and dispatches jobs automatically — powered by state-of-the-art voice AI.
             </p>
 
             <div className="flex flex-wrap justify-center gap-4 mb-12">
               <Button to="/contact" variant="primary">Book a Call</Button>
-              <a 
-                href="https://www.loom.com/share/c5c0a2929a4942e18ec7a68b4ac7ba34" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-brand-border bg-white text-brand-dark font-semibold text-sm hover:border-brand-blue transition-all shadow-sm"
-              >
-                <Play size={16} className="text-brand-blue fill-brand-blue" /> Watch Loom Demo
+              <a href="https://www.upwork.com/freelancers/alis775?mp_source=share" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center font-inter font-medium rounded-[10px] transition-all duration-300 ease-out border-2 border-brand-border bg-white text-brand-dark hover:border-brand-blue py-3 px-6 text-sm">
+                Hire Us on Upwork
               </a>
             </div>
           </motion.div>
 
-          {/* Built with Claude Line Callout */}
-          <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.3 }} className="bg-brand-dark text-white p-6 rounded-2xl max-w-4xl mx-auto border border-white/10 shadow-brand-lg mb-16 text-left flex items-start gap-4">
-            <div className="w-12 h-12 rounded-xl bg-brand-blue/20 text-brand-blue flex items-center justify-center shrink-0">
-              <Cpu size={24} />
-            </div>
-            <div>
-              <h3 className="font-jakarta font-bold text-lg mb-1 text-white">Built with Claude API</h3>
-              <p className="text-white/80 text-sm leading-relaxed">
-                Riley is powered by Anthropic's Claude API for natural conversation understanding, real-time intent classification, caller triage, and accurate dispatch scheduling without rigid or frustrating phone tree scripts.
-              </p>
-            </div>
-          </motion.div>
-
-          {/* Video Player & Loom Embed */}
-          <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }} className="max-w-4xl mx-auto rounded-3xl overflow-hidden border border-brand-border shadow-brand-lg bg-black relative flex flex-col">
+          {/* Video Player Section */}
+          <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }} className="max-w-4xl mx-auto rounded-3xl overflow-hidden border border-brand-border shadow-brand-lg bg-black relative flex flex-col">
             <div className="relative aspect-video w-full">
               <video 
                 controls 
                 preload="metadata"
-                src={hvacVideo} 
+                src={whatsappVideo} 
                 className="w-full h-full object-cover" 
               />
             </div>
@@ -102,18 +84,10 @@ const Riley = () => {
                   <Play size={20} className="fill-brand-blue ml-0.5" />
                 </div>
                 <div>
-                  <h4 className="font-jakarta font-bold text-white text-sm">AI Voice Receptionist Schedules & Transfers Calls — HVAC 24 Hour</h4>
-                  <p className="text-white/60 text-xs">CEO Walkthrough & Demo</p>
+                  <h4 className="font-jakarta font-bold text-white text-sm">AI Voice Receptionist Schedules & Transfers Calls — 24/7 HVAC Intake</h4>
+                  <p className="text-white/60 text-xs">Live Voice AI Product Demonstration</p>
                 </div>
               </div>
-              <a 
-                href="https://www.loom.com/share/c5c0a2929a4942e18ec7a68b4ac7ba34" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="text-xs font-semibold text-brand-blue hover:underline shrink-0"
-              >
-                Open on Loom ↗
-              </a>
             </div>
           </motion.div>
         </div>
@@ -149,7 +123,7 @@ const Riley = () => {
                 Riley engages callers like an experienced front-desk receptionist. It understands HVAC problems, triages emergency service calls, gathers job site details, and schedules callbacks instantly.
               </p>
               <ul className="space-y-2 text-sm text-brand-gray">
-                <li className="flex items-center gap-2"><CheckCircle2 size={16} className="text-green-500 shrink-0" /> Speaks naturally using Anthropic Claude API intelligence.</li>
+                <li className="flex items-center gap-2"><CheckCircle2 size={16} className="text-green-500 shrink-0" /> Speaks naturally with human-like conversational voice AI.</li>
                 <li className="flex items-center gap-2"><CheckCircle2 size={16} className="text-green-500 shrink-0" /> Differentiates AC no-cool emergencies from routine maintenance.</li>
                 <li className="flex items-center gap-2"><CheckCircle2 size={16} className="text-green-500 shrink-0" /> Direct notification via SMS to on-call technicians.</li>
               </ul>

@@ -13,8 +13,8 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>AZync Solutions | AI Voice Agents & Automation Built on Claude</title>
-        <meta name="description" content="AZync Solutions builds AI voice agents, custom automation, and web applications built on Claude for HVAC businesses, startups, and SMBs worldwide." />
+        <title>AZync Solutions | AI Voice Agents & Custom Software Development</title>
+        <meta name="description" content="AZync Solutions builds 24/7 AI voice receptionists, custom workflow automation, and web applications for HVAC businesses, startups, and SMBs worldwide." />
         <link rel="canonical" href="https://www.azyncsolutions.com/" />
         <script type="application/ld+json">
           {`

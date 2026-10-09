@@ -36,16 +36,16 @@ const HomeHero = () => {
             transition={{ duration: 0.8 }}
             className="flex flex-col items-start gap-6"
           >
-            <Badge className="mb-2">Powered by Claude API</Badge>
+            <Badge className="mb-2">AI Voice Agents & Software Studio</Badge>
             <h1 className="text-5xl md:text-6xl lg:text-7xl leading-[1.1] tracking-tight text-brand-dark font-jakarta font-bold">
-              AI voice agents and automation, <span className="text-gradient">built on Claude.</span>
+              We Build AI Voice Agents & <span className="text-gradient">Custom Software.</span>
             </h1>
             <p className="text-lg md:text-xl text-brand-gray max-w-xl leading-relaxed">
-              We build intelligent AI voice receptionists, custom workflow automation, and web applications for HVAC providers, service businesses, startups, and SMBs.
+              We build intelligent 24/7 AI voice receptionists (like Riley for HVAC businesses), custom workflow automation, and high-performance web applications.
             </p>
             <div className="flex flex-wrap items-center gap-4 mt-4">
-              <Button to="/riley" variant="primary">Watch Riley demo</Button>
-              <Button to="/contact" variant="outline">Book a call</Button>
+              <Button to="/riley" variant="primary">Explore Riley AI</Button>
+              <Button to="/contact" variant="outline">Book a Call</Button>
             </div>
           </motion.div>
 

@@ -20,7 +20,7 @@ export const team = [
     role: 'Co-Founder & CTO',
     bio: 'Computer scientist and full-stack systems engineer architecting voice agent pipelines, backend workflows, and web applications.',
     image: founder2,
-    skills: ['Claude API', 'Voice Pipelines', 'System Architecture'],
+    skills: ['Voice AI', 'System Architecture', 'Full-Stack Dev'],
     socials: {
       linkedin: 'https://www.linkedin.com/in/zain-shahid-94a3a2390',
       github: 'https://github.com/zain31197'

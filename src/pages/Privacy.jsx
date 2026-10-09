@@ -7,7 +7,7 @@ const Privacy = () => {
     <>
       <Helmet>
         <title>Privacy Policy | AZync Solutions</title>
-        <meta name="description" content="Privacy Policy for AZync Solutions. Learn how we handle form submissions, contact information, and third-party services like Vercel and Anthropic Claude API." />
+        <meta name="description" content="Privacy Policy for AZync Solutions. Learn how we handle form submissions, contact information, and third-party services like Vercel." />
         <link rel="canonical" href="https://www.azyncsolutions.com/privacy" />
       </Helmet>
 
@@ -55,7 +55,7 @@ const Privacy = () => {
               </p>
               <ul className="list-disc list-inside text-brand-gray mt-2 space-y-1">
                 <li><strong>Vercel:</strong> Web hosting and edge serverless infrastructure.</li>
-                <li><strong>Anthropic API (Claude):</strong> Powers our AI voice receptionists (e.g., Riley) and custom LLM workflow integrations. Data processed via Anthropic API adheres to Anthropic’s API data privacy standard (API data is not used for model training).</li>
+                <li><strong>Voice & AI Services:</strong> Powers our 24/7 AI voice receptionists (e.g., Riley) and custom workflow integrations. Client data is handled with strict confidentiality.</li>
               </ul>
             </div>
 
