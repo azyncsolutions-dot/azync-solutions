@@ -8,6 +8,9 @@ import Card from '../components/ui/Card';
 import founder1 from '../assets/founder1.png';
 import founder2 from '../assets/founder2.png';
 
+// Toggle to show/hide Zain's Upwork profile card (can be toggled back on when requested)
+const SHOW_ZAIN_UPWORK_PROFILE = false;
+
 const HireUs = () => {
   return (
     <>
@@ -99,7 +102,7 @@ const HireUs = () => {
           </div>
 
           {/* Founders Grid */}
-          <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+          <div className={SHOW_ZAIN_UPWORK_PROFILE ? "grid md:grid-cols-2 gap-12 max-w-5xl mx-auto" : "max-w-xl mx-auto"}>
             
             {/* Founder 1 */}
             <motion.div 
@@ -134,38 +137,40 @@ const HireUs = () => {
               </Card>
             </motion.div>
 
-            {/* Founder 2 */}
-            <motion.div 
-              initial={{ opacity: 0, x: 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-            >
-              <Card className="h-full flex flex-col p-6 border border-brand-border hover:border-brand-blue/20 shadow-sm relative overflow-hidden group">
-                <div className="flex items-center gap-4 mb-6">
-                  <img src={founder2} alt="Zain Shahid" className="w-16 h-16 rounded-full object-cover border-2 border-brand-blue" />
-                  <div>
-                    <h4 className="text-xl font-jakarta font-bold text-brand-dark mb-0.5">Zain Shahid</h4>
-                    <p className="text-brand-blue text-sm font-semibold">Co-Founder & CTO</p>
+            {/* Founder 2 - Zain Shahid (Hidden until requested to unhide) */}
+            {SHOW_ZAIN_UPWORK_PROFILE && (
+              <motion.div 
+                initial={{ opacity: 0, x: 30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+              >
+                <Card className="h-full flex flex-col p-6 border border-brand-border hover:border-brand-blue/20 shadow-sm relative overflow-hidden group">
+                  <div className="flex items-center gap-4 mb-6">
+                    <img src={founder2} alt="Zain Shahid" className="w-16 h-16 rounded-full object-cover border-2 border-brand-blue" />
+                    <div>
+                      <h4 className="text-xl font-jakarta font-bold text-brand-dark mb-0.5">Zain Shahid</h4>
+                      <p className="text-brand-blue text-sm font-semibold">Co-Founder & CTO</p>
+                    </div>
                   </div>
-                </div>
 
-                <p className="text-brand-gray text-sm mb-6 flex-grow">
-                  Specialized in backend scaling, database architecture, AI/ML integrations, and complex business logic setup. Hire Zain for system design and backend engineering.
-                </p>
+                  <p className="text-brand-gray text-sm mb-6 flex-grow">
+                    Specialized in backend scaling, database architecture, AI/ML integrations, and complex business logic setup. Hire Zain for system design and backend engineering.
+                  </p>
 
-                <div className="flex flex-col gap-3 mt-auto pt-6 border-t border-brand-light">
-                  <a 
-                    href="https://www.upwork.com/freelancers/~01fef35e6ad2aafd9d?mp_source=share" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="w-full bg-[#14a800] hover:bg-[#108a00] text-white font-medium py-3 rounded-xl shadow-sm hover:shadow-md transition-all flex items-center justify-center gap-2 text-sm"
-                  >
-                    <SiUpwork size={16} /> Zain's Upwork Profile
-                  </a>
-                </div>
-              </Card>
-            </motion.div>
+                  <div className="flex flex-col gap-3 mt-auto pt-6 border-t border-brand-light">
+                    <a 
+                      href="https://www.upwork.com/freelancers/~01fef35e6ad2aafd9d?mp_source=share" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="w-full bg-[#14a800] hover:bg-[#108a00] text-white font-medium py-3 rounded-xl shadow-sm hover:shadow-md transition-all flex items-center justify-center gap-2 text-sm"
+                    >
+                      <SiUpwork size={16} /> Zain's Upwork Profile
+                    </a>
+                  </div>
+                </Card>
+              </motion.div>
+            )}
 
           </div>
 
